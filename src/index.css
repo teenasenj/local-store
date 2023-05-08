@@ -1,0 +1,116 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+
+  background-color: #e2e9f1;
+  /* background-color: #38d08a; */
+  font-family: Arial, Helvetica, 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.app-container,
+.head-section{
+  padding: 50px 20px 0;
+}
+
+
+.date{
+  font-size: 35px;
+}
+
+.date span{
+  font-weight: 900;
+}
+
+.app-form-container{
+  margin: 20px 0;
+  padding: 10px;
+  box-shadow: 0px 3px 15px rgba(84, 4, 4, 0.2);
+}
+
+.app-form-container form input{
+  display: block;
+  width: 70%;
+  margin-left: 10%;
+  padding: 10px;
+  outline: none;
+  border-radius: 5px;
+  border: 2px solid #060606;
+}
+
+.app-form-container .error{
+  border: 2px solid rgb(243, 18, 18);
+  transform: scale(0.9);
+}
+
+.app-form-container .btn{
+  padding: 10px;
+  background-color: #c0dde4;
+  border: none;
+  margin: 15px 0;
+  width: 50%;
+  margin-left: 20%;
+  border-radius: 5px;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.data-card-container{
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  }
+
+.data-card{
+  padding: 10px;
+  box-shadow: 0px 3px 15px rgb(0,0,0,0.2);
+  border-radius: 5px;
+  flex-basis: 50%;
+}
+
+.data-card:last-child{
+  text-align: right;
+}
+
+.data-card h5{
+  font-size: 18px;
+}
+
+.todo-container{
+  margin: 10px 0;
+  height: 55vh;
+  overflow: scroll;
+  padding: 10px;
+}
+
+.todo-card{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  margin: 20px 0;
+}
+
+/* .todo-card.icon-done{
+  color: #ed2195;
+} */
+
+.todo-card .text-done{
+  color: rgb(26, 43, 194);
+  text-decoration: line-through;
+}
+
+.todo-card .icon{
+  font-size: 25px;
+}
+
+.delete-icon{
+  color: red;
+  
+}
